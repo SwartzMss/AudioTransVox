@@ -1,0 +1,11 @@
+[package]
+name = "audio_trans_vox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+chrono = "0.4"
+cpal = "0.15.2"
+num-traits = "0.2"
+ctrlc = "3.4.5"
